@@ -150,3 +150,8 @@ button {
   border-radius: 5px;
   text-transform: uppercase;
 }
+
+.card-middle button {
+  color: hsl(237, 63%, 64%);
+  background-color: white;
+}
