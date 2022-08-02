@@ -130,3 +130,23 @@ p {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
+
+#card hr {
+  width: 80%;
+  margin: auto;
+  opacity: 0.2;
+}
+
+button {
+  width: 85%;
+  margin: 1.5rem auto 0.5rem auto;
+  padding: 0.8rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition-duration: 3000;
+  color: white;
+  background-color: hsl(237, 63%, 64%);
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
