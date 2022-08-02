@@ -115,3 +115,13 @@ p {
 .card-right p {
   padding: 1rem 0;
 }
+
+.card-left p,
+.card-right p {
+  color: hsl(233, 13%, 49%);
+}
+
+.card-left {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
