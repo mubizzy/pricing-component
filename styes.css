@@ -155,3 +155,27 @@ button {
   color: hsl(237, 63%, 64%);
   background-color: white;
 }
+
+.card-middle button:hover {
+  color: white;
+  background-color: transparent;
+}
+button:hover {
+  color: hsl(237, 63%, 64%);
+  background-color: transparent;
+}
+
+/*Media queries*/
+
+@media only screen and (max-width: 760px) {
+  #cards {
+    flex-direction: column;
+  }
+  .card-left,
+  .card-middle,
+  .card-right {
+    margin: 1rem;
+    border-radius: 10px;
+    width: 80%;
+  }
+}
