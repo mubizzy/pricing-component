@@ -109,3 +109,9 @@ p {
   color: white;
   border-radius: 10px;
 }
+
+.card-middle p,
+.card-left p,
+.card-right p {
+  padding: 1rem 0;
+}
