@@ -72,3 +72,11 @@ p {
   align-items: center;
   cursor: pointer;
 }
+
+#selector-ball {
+  width: 1.3rem;
+  height: 1.3rem;
+  background-color: white;
+  border-radius: 50%;
+  transition-duration: 5000;
+}
